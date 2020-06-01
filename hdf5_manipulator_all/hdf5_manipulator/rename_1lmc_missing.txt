@@ -1,0 +1,23 @@
+started Tue Apr 30 12:28:34 CDT 2019 1556645314
+GPU 0: Tesla K40m (UUID: GPU-c59d93c0-c2f8-605c-4eba-9a0003f41894)
+singularity exec /data/minerva/anushree/simg_file/anushree85-singularity_imgs-master-wilson_caffe_0.15_dann_cuda7.5_cudnn5.simg ./split_file.sh
+[91mERROR  : Image path /data/minerva/anushree/simg_file/anushree85-singularity_imgs-master-wilson_caffe_0.15_dann_cuda7.5_cudnn5.simg doesn't exist: No such file or directory
+[0m[31mABORT  : Retval = 255
+[0mTue Apr 30 12:28:39 2019       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 410.48                 Driver Version: 410.48                    |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  Tesla K40m          Off  | 00000000:83:00.0 Off |                    0 |
+| N/A   28C    P0    63W / 235W |      0MiB / 11441MiB |     74%      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID   Type   Process name                             Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+finished Tue Apr 30 12:28:39 CDT 2019 1556645319
